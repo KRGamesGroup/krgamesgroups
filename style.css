@@ -2,10 +2,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-image: url("4380c3af-8dbe-4a7f-885b-fd32bb323002.png"); /* remplace par ton image */
-    background-size: cover;
+    background-image: url("1ec9b6f5-fc80-419e-baa5-4cae5896199b.png"); /* Image de fond */
+    background-size: contain; /* évite l’effet zoomé */
+    background-position: top center;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     color: #cfd8dc;
     font-size: 16px;
@@ -51,14 +51,9 @@ nav a:hover {
 
 /* Section accueil */
 .hero {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(11, 12, 16, 0.7);
-    padding: 3rem 1rem;
+    padding: 4rem 1rem;
     text-align: center;
+    background-color: rgba(11, 12, 16, 0.7);
 }
 .hero h2 {
     font-size: 2rem;
@@ -67,19 +62,14 @@ nav a:hover {
 .hero p {
     font-size: 1.2rem;
     max-width: 800px;
-    margin-top: 1rem;
+    margin: 1rem auto 0;
 }
 
-/* Autres sections */
+/* Sections à thème */
 .feature {
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(31, 40, 51, 0.8);
     padding: 3rem 1rem;
     text-align: center;
+    background-color: rgba(31, 40, 51, 0.8);
 }
 .feature h2 {
     font-size: 2rem;
@@ -89,6 +79,7 @@ nav a:hover {
 .feature p {
     font-size: 1.2rem;
     max-width: 800px;
+    margin: 0 auto;
 }
 
 /* Pied de page */
@@ -99,7 +90,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Responsive pour grands écrans */
+/* Responsive pour écrans plus larges */
 @media (min-width: 768px) {
     body {
         font-size: 18px;
