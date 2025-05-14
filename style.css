@@ -1,38 +1,102 @@
-
+/* Base globale */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #0b0c10;
     color: #cfd8dc;
+    font-size: 16px;
 }
+
+/* Header */
 header {
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 1rem;
     background-color: #1f2833;
 }
 .logo {
     max-width: 150px;
+    margin-bottom: 1rem;
 }
+header h1 {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+}
+header p {
+    font-size: 1rem;
+    color: #b0bec5;
+}
+
+/* Navigation */
 nav {
     display: flex;
     justify-content: center;
     background-color: #45a29e;
+    flex-wrap: wrap;
 }
 nav a {
     color: #fff;
     padding: 1rem;
     text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
 }
 nav a:hover {
     background-color: #66fcf1;
     color: #0b0c10;
 }
+
+/* Main */
 main {
     padding: 2rem;
     text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
+main h2 {
+    font-size: 1.8rem;
+    color: #66fcf1;
+}
+main p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 1rem auto 0;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #1f2833;
+    font-size: 0.9rem;
+}
+
+/* Responsive pour écrans larges */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .logo {
+        max-width: 200px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    main h2 {
+        font-size: 2rem;
+    }
+
+    main p {
+        font-size: 1.2rem;
+    }
 }
