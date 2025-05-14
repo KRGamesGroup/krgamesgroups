@@ -100,3 +100,34 @@ footer {
         font-size: 1.2rem;
     }
 }
+
+.tools {
+    background-color: #0f1c2e;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.tools-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tools h3 {
+    font-size: 2rem;
+    color: #66fcf1;
+    margin-bottom: 1rem;
+}
+
+.tools p {
+    font-size: 1.1rem;
+    color: #cfd8dc;
+    margin-bottom: 2rem;
+}
+
+.tools-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
