@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.main-header {
+    text-align: center;
+    background: url('images/dragon_bg.jpg') no-repeat center center/cover;
+    padding: 3rem 1rem;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 1rem;
+}
+
+.main-header h1 {
+    font-size: 3rem;
+    margin: 0.2rem 0;
+    color: #4cc9f0;
+}
+
+.main-header p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+main {
+    padding: 2rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.feature img {
+    width: 300px;
+    height: auto;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+.feature .text h2 {
+    font-size: 2rem;
+    color: #4cc9f0;
+}
+
+.feature .text p {
+    font-size: 1rem;
+}
+
+.return-home {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.return-home a {
+    color: #4cc9f0;
+    text-decoration: none;
+    font-weight: bold;
+}
